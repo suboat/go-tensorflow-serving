@@ -27,6 +27,7 @@ syntax = "proto3";
 package tensorflow.serving.internal;
 
 option cc_enable_arenas = true;
+option go_package = "github.com/suboat/go-tensorflow-serving/tensorflow_serving/apis/internal";
 
 message SerializedExampleList {
   repeated bytes examples = 1;

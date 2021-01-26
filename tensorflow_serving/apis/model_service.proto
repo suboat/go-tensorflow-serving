@@ -5,6 +5,8 @@ option cc_enable_arenas = true;
 import "tensorflow_serving/apis/get_model_status.proto";
 import "tensorflow_serving/apis/model_management.proto";
 
+option go_package = "github.com/suboat/go-tensorflow-serving/tensorflow_serving/apis";
+
 package tensorflow.serving;
 
 // ModelService provides methods to query and update the state of the server,

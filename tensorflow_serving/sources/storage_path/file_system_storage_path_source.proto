@@ -2,6 +2,8 @@ syntax = "proto3";
 
 package tensorflow.serving;
 
+option go_package = "github.com/suboat/go-tensorflow-serving/tensorflow_serving/sources/storage_path";
+
 // Config proto for FileSystemStoragePathSource.
 message FileSystemStoragePathSourceConfig {
   // A policy that dictates which version(s) of a servable should be served.

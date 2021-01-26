@@ -2,9 +2,11 @@ syntax = "proto3";
 
 package tensorflow.serving;
 option cc_enable_arenas = true;
+option go_package = "github.com/suboat/go-tensorflow-serving/tensorflow_serving/apis";
 
 import "tensorflow/core/framework/tensor.proto";
 import "tensorflow_serving/apis/model.proto";
+
 
 // PredictRequest specifies which TensorFlow model to run, as well as
 // how inputs are mapped to tensors and how outputs are filtered before

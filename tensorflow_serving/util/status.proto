@@ -5,6 +5,7 @@ package tensorflow.serving;
 import "tensorflow/core/protobuf/error_codes.proto";
 
 option cc_enable_arenas = true;
+option go_package = "github.com/suboat/go-tensorflow-serving/tensorflow_serving/util";
 
 // Status that corresponds to Status in
 // third_party/tensorflow/core/lib/core/status.h.

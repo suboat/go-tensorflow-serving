@@ -2,8 +2,10 @@ syntax = "proto3";
 
 package tensorflow.serving;
 option cc_enable_arenas = true;
+option go_package = "github.com/suboat/go-tensorflow-serving/tensorflow_serving/apis";
 
 import "google/protobuf/wrappers.proto";
+
 
 // Metadata for an inference request such as the model name and version.
 message ModelSpec {

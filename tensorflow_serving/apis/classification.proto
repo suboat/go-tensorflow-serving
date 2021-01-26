@@ -5,6 +5,8 @@ option cc_enable_arenas = true;
 import "tensorflow_serving/apis/input.proto";
 import "tensorflow_serving/apis/model.proto";
 
+option go_package = "github.com/suboat/go-tensorflow-serving/tensorflow_serving/apis";
+
 package tensorflow.serving;
 
 // A single class.
